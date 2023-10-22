@@ -100,9 +100,8 @@ body{
    @media screen and (max-width: 600px){
         .container{
             align-self: center;
-            margin-left: 10px;
-            margin-right: 10px;
-            width: 100%;
+            margin: 13% 15%;
+            width: 60vh;
 
         }
 
