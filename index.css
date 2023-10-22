@@ -97,29 +97,22 @@ body{
 
 
 */
-  /* @media screen and (max-width: 600px){
+  @media screen and (max-width: 600px){
         .container{
             align-self: center;
-            width: 80%;
+            width: 100%;
+            height: auto;
 
         }
 
-        .review-button{
-            width: 8vh;
-            height: 8vh;
-        }
-
-        .star{
-            width: 20px;
-            height: 20px;
-        }
+    
 
 
 
     
     
 }
-*/
+
 
 
 .star{
