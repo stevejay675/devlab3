@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(220, 12%, 5%);
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 250px;
+    align-items: center;
+    margin: 14% 25%;
+    border-radius: 15px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+}
+
+.buttonGroup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 80%;
+    
+}
+
+.review-button{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: hsl(244, 15%, 22%);
+    color: white;
+    border: 0;
+    
+}
+
+#submitButton{
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    width: 80%;
+    height: 50%;
+    border: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+#submitButton:hover{
+    background-color: hsl(25, 97%, 63%);
+    transition: 0.5s;
+}
+
+.review-button:hover{
+    background-color: hsl(244, 15%, 32%);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 40%;
+        height: auto;
+    }
+
+    .review-button{
+        width: 100%;
+        height: auto;
+    }
+
+
+    
+    
+}
